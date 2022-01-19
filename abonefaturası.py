@@ -1,0 +1,15 @@
+vize=float(input("ögrencinin vize notu:"))
+final=float(input("ögrencinin final notu:"))
+ortalama=vize*0.4+final*0.6
+print("ortalaması:",ortalama)
+#tüketiciye su faturasını bildiren mesaj metni yazılımı.
+aboneNumarası=input("abone numarası:")
+tüketimDönemi=input("tüketim dönemi:")
+tüketimTutarı=input("tüketim tutarı:")
+print("Sayın",str(aboneNumarası),"no/lu abonemiz",str(tüketimDönemi),"dönemi faturanız",str(tüketimTutarı),"TL/dir.",end="\n",)
+print(".....MUĞLA BELEDİYESİ....")
+veliAdıSoyadı=input("Veli ad soyadı:")
+mesajınİçeriği=input("Mesajın içeriği:")
+devamsızlıkSüresi=input("Devamsızlık süresi:")
+print("sn.",str(veliAdıSoyadı),"öğrenciniz toplam devamsızlığı",str(devamsızlıkSüresi),"gündür.dikkatinize!")
+print("...galatasaray lisesi...")
