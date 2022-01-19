@@ -1,0 +1,19 @@
+note=int(input("sınav notu:"))
+if (0<=note<=100 ):
+    if note==96:
+        print(100)
+    elif note==4:
+        print(0)
+    elif (note>=80 and note<=90):
+        note1=note+10
+        print(note1)
+    elif (note>=60 and note<=95):
+        note1=note+5
+        print(note1)
+    elif (note<=45 and note>=5):
+        note1=note-5
+        print(note1)
+    else:
+            print("0-100 değer aralığı değil.")
+else:
+    print("değer aralığı değil.")
